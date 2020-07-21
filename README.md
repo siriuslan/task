@@ -6,6 +6,6 @@ To run this application, please follow below
 3. Enter project folder and run command  - pip install -r requirements.txt.
 4. Run command - python main.py and then follow instruction as prompted.
 
-Assumption - All tweets get from twitte are all with valid id, created time an text.
-
-
+Assumptions:
+1. All tweets get from twitte are all with valid id, created time an text and only save these 3 fields for dump.
+2. As there is no specific requirement on how to implement the api to dump all tweets so I implemented by input 'dump' in command line.
